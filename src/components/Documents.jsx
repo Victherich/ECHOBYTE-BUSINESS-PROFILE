@@ -126,15 +126,14 @@ export default function Documents() {
   ];
 
   return (
-    <CertificationsWrapper>
+    <CertificationsWrapper id="documents">
       <Container>
         <PageTitle>Documents</PageTitle>
 
-        <PageIntro>
-          This section highlights professional certifications, training, and
-          recognitions that support our technical expertise and commitment to
-          continuous learning.fgffff
-        </PageIntro>
+      
+<PageIntro>
+  This section contains our official company registration certificates and other essential documents, demonstrating our legitimacy, compliance, and commitment to transparency.
+</PageIntro>
 
         <Grid>
           {certificates.map((cert, index) => (

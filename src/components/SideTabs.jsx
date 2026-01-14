@@ -3,7 +3,7 @@ import styled from "styled-components";
 const SideNav = styled.nav`
   position: fixed;
   top: 50%;
-  left: 20px;
+  right: 20px;
   transform: translateY(-50%);
   display: flex;
   flex-direction: column;
@@ -16,13 +16,13 @@ const SideNav = styled.nav`
 `;
 
 const TabButton = styled.button`
-  background: rgba(0,0,255,0.5);
+  background: rgba(0,0,255,0.3);
   color: white;
   border: none;
-  padding: 10px 14px;
+  padding: 5px 10px;
   border-radius: 6px;
   cursor: pointer;
-  font-size: 0.9rem;
+  font-size: 0.7rem;
   text-align: left;
   transition: all 0.3s ease;
 
@@ -32,12 +32,17 @@ const TabButton = styled.button`
 `;
 
 const sections = [
-  { id: "home", label: "Home" },
+  { id: "home", label: "Intro" },
   { id: "about", label: "About" },
   { id: "products", label: "Products" },
+   { id: "founder", label: "Founder" },
   { id: "technology", label: "Technology" },
   { id: "gallery", label: "Gallery" },
   { id: "certifications", label: "Certifications" },
+   { id: "events", label: "Events" },
+    { id: "topprojects", label: "Top Projects" },
+     { id: "topclients", label: "Top Clients" },
+     { id: "documents", label: "Documents" },
   { id: "contact", label: "Contact" },
 ];
 

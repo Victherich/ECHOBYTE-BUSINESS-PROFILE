@@ -125,15 +125,13 @@ export default function TopProjects() {
   ];
 
   return (
-    <CertificationsWrapper>
+    <CertificationsWrapper id='topprojects'>
       <Container>
         <PageTitle>Our Top Projects</PageTitle>
 
-        <PageIntro>
-          This section highlights professional certifications, training, and
-          recognitions that support our technical expertise and commitment to
-          continuous learning.fgffff
-        </PageIntro>
+     <PageIntro>
+  This section showcases our most impactful projects, highlighting innovative solutions, technical expertise, and the results we've delivered for businesses and organizations across various industries.
+</PageIntro>
 
         <Grid>
           {certificates.map((cert, index) => (

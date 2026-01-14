@@ -77,7 +77,7 @@ export default function About() {
 
         <IntroText>
           <Highlight>ECHOBYTE CONCEPT</Highlight> is a technology-driven venture
-          focused on building scalable, AI-powered, and automated digital
+          focused on building scalable, Web, Mobile, AI-powered, and automated digital
           solutions that help businesses, professionals, and organizations
           operate more efficiently and grow in today’s digital economy.
         </IntroText>

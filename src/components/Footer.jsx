@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import logo from '../Images/logo.jpeg'
 
 const FooterWrapper = styled.footer`
   background: #020617;
@@ -93,7 +94,7 @@ export default function Footer() {
           <div>
             <ColumnTitle>ECHOBYTE CONCEPT</ColumnTitle>
             <Text>
-              We build simple, scalable, and AI-powered digital solutions that
+              We build scalable, and AI-powered digital solutions that
               help businesses, professionals, and organizations work better,
               grow faster, and compete confidently in the digital economy.
             </Text>
@@ -103,14 +104,15 @@ export default function Footer() {
           <div>
             <ColumnTitle>Contact</ColumnTitle>
             <List>
-              <ListItem>Email: info@echobyteconcept.com</ListItem>
-              <ListItem>Phone: +234 XXX XXX XXXX</ListItem>
-              <ListItem>Location: Nigeria</ListItem>
+              <ListItem>Phone: +234 706 348 0314</ListItem>
+              <ListItem>Email: echobyteconcept@gmail.com</ListItem>
+              <ListItem>Website: echobyteconcept.com</ListItem>
+    
             </List>
           </div>
 
           {/* Links */}
-          <div>
+          {/* <div>
             <ColumnTitle>Quick Links</ColumnTitle>
             <List>
               <ListItem>
@@ -129,19 +131,17 @@ export default function Footer() {
                 <Link href="/certifications">Certifications</Link>
               </ListItem>
             </List>
-          </div>
+          </div> */}
 
           {/* Social */}
           <div>
             <ColumnTitle>Connect With Us</ColumnTitle>
             <SocialLinks>
-              <SocialIcon href="https://linkedin.com" target="_blank">
-                LinkedIn
+              <SocialIcon href="https://web.facebook.com/profile.php?id=61577637016110" target="_blank">
+                Facebook
               </SocialIcon>
-              <SocialIcon href="https://twitter.com" target="_blank">
-                X (Twitter)
-              </SocialIcon>
-              <SocialIcon href="https://github.com" target="_blank">
+       
+              <SocialIcon href="https://github.com/Victherich" target="_blank">
                 GitHub
               </SocialIcon>
             </SocialLinks>
@@ -149,8 +149,14 @@ export default function Footer() {
         </FooterGrid>
 
         <Divider />
+        
 
         <BottomText>
+          <img src={logo} alt='logo' style={{
+            width:"50px",
+            borderRadius:"50%",
+   
+          }}/><br/>
           © {new Date().getFullYear()} ECHOBYTE CONCEPT. All rights reserved.
           <br />
           Empowering growth through technology, automation, and innovation.

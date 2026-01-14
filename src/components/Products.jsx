@@ -217,8 +217,7 @@ export default function Products() {
             <ProductName>Digital Store Platform</ProductName>
             <ProductDescription>
               We provide an online store where creators can sell software and
-              courses, and users can easily find and use digital and AI-powered
-              tools.
+              courses, and users can easily find softwares, courses and other digital products for their business and personal enhancements and efficiency.
             </ProductDescription>
           </ProductCard>
 
@@ -229,8 +228,8 @@ export default function Products() {
             />
             <ProductName>Academic & School Management System</ProductName>
             <ProductDescription>
-              We build a school system that helps schools manage students,
-              payments, exams, and learning digitally instead of using paper.
+              We build a school system that helps schools and universtities to run and manage all academic activites including students,
+              payments, exams etc and learning digitally instead of the stressful physical and manual methods.
             </ProductDescription>
           </ProductCard>
 
@@ -241,8 +240,8 @@ export default function Products() {
             />
             <ProductName>Portfolio Builder Platform</ProductName>
             <ProductDescription>
-              We help individuals create simple online portfolios where they can
-              show their skills, projects, and work experience professionally.
+              We help individuals and professionals create their customized online portfolios where they can
+              show their skills, projects, and work experience professionally and dynamically, instead of the static old paper CVs.
             </ProductDescription>
           </ProductCard>
         </ProductGrid>

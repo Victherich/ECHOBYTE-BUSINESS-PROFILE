@@ -53,14 +53,13 @@ const Caption = styled.div`
 
 export default function TopClients() {
   return (
-    <GalleryWrapper>
+    <GalleryWrapper id='topclients'>
       <Container>
         <PageTitle>Our Top Clients</PageTitle>
 
-        <PageIntro>
-          A visual overview of our digital solutions, technology focus areas,
-          and the environments where our products are designed and applied.
-        </PageIntro>
+     <PageIntro>
+  This section highlights some of our valued clients and partners, showcasing the organizations that trust us to deliver innovative solutions, drive growth, and support their digital transformation journeys.
+</PageIntro>
 
         <GalleryGrid>
           <GalleryCard>

@@ -125,15 +125,13 @@ export default function Events() {
   ];
 
   return (
-    <CertificationsWrapper>
+    <CertificationsWrapper id='events'>
       <Container>
         <PageTitle>Events</PageTitle>
 
-        <PageIntro>
-          This section highlights professional certifications, training, and
-          recognitions that support our technical expertise and commitment to
-          continuous learning.fgffff
-        </PageIntro>
+       <PageIntro>
+  This section showcases our key events, professional certifications, trainings, and recognitions that demonstrate our expertise, commitment to continuous learning, and active participation in the tech and AI community.
+</PageIntro>
 
         <Grid>
           {certificates.map((cert, index) => (
