@@ -1,4 +1,8 @@
 import styled from "styled-components";
+import SadeKuku from '../Images/SadeKuku.jpeg'
+import Cerens from '../Images/Cerens.jpeg'
+import Kingsley from '../Images/Kingsley.jpeg'
+import Glory from '../Images/Glory.jpeg'
 
 const GalleryWrapper = styled.section`
   padding: 80px 60px;
@@ -41,6 +45,7 @@ const GalleryImage = styled.img`
   width: 100%;
   height: 220px;
   object-fit: cover;
+  object-position:top;
   display: block;
 `;
 
@@ -64,67 +69,47 @@ export default function TopClients() {
         <GalleryGrid>
           <GalleryCard>
             <GalleryImage
-              src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=900&q=80"
+              src={Cerens}
               alt="Web development workspace"
             />
-            <Caption>Web & Cloud Solutions Development</Caption>
+            <Caption><strong>CERENS ANONG</strong> <br/>
+            Entrepreneur and Developer
+            </Caption>
           </GalleryCard>
 
           <GalleryCard>
             <GalleryImage
-              src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=900&q=80"
+              src={Kingsley}
               alt="Team working on software"
             />
-            <Caption>Building Scalable Digital Platforms</Caption>
+            <Caption><strong>Kingsley Gbedzeker</strong><br/>
+            Entrepreneur
+            </Caption>
           </GalleryCard>
 
           <GalleryCard>
             <GalleryImage
-              src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=900&q=80"
+              src={SadeKuku}
               alt="Mobile application usage"
             />
-            <Caption>Mobile Application Solutions</Caption>
+            <Caption><strong>Sade Kuku</strong><br/>
+            Founder BWGF
+            </Caption>
+            
           </GalleryCard>
 
           <GalleryCard>
             <GalleryImage
-              src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=900&q=80"
+              src={Glory}
               alt="Digital marketplace"
             />
-            <Caption>Digital Store Platform</Caption>
+            <Caption><strong>Glory Robinson</strong><br/>
+            Founder GCF
+            </Caption>
+          
           </GalleryCard>
 
-          <GalleryCard>
-            <GalleryImage
-              src="https://images.unsplash.com/photo-1588072432836-e10032774350?auto=format&fit=crop&w=900&q=80"
-              alt="School technology"
-            />
-            <Caption>Academic & School Management System</Caption>
-          </GalleryCard>
-
-          <GalleryCard>
-            <GalleryImage
-              src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=900&q=80"
-              alt="Professional working on laptop"
-            />
-            <Caption>Portfolio Builder Platform</Caption>
-          </GalleryCard>
-
-          <GalleryCard>
-            <GalleryImage
-              src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=900&q=80"
-              alt="Cloud infrastructure"
-            />
-            <Caption>Cloud Infrastructure & Automation</Caption>
-          </GalleryCard>
-
-          <GalleryCard>
-            <GalleryImage
-              src="https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?auto=format&fit=crop&w=900&q=80"
-              alt="Software code"
-            />
-            <Caption>Software Engineering & AI Integration</Caption>
-          </GalleryCard>
+         
         </GalleryGrid>
       </Container>
     </GalleryWrapper>

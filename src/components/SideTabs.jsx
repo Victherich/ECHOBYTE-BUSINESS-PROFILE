@@ -16,7 +16,7 @@ const SideNav = styled.nav`
 `;
 
 const TabButton = styled.button`
-  background: rgba(0,0,255,0.3);
+  background: rgba(0,0,255,0.5);
   color: white;
   border: none;
   padding: 5px 10px;

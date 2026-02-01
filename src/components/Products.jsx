@@ -111,6 +111,8 @@
 
 
 import styled from "styled-components";
+import portal from '../Images/portal.jpeg'
+import ds from '../Images/ds.png'
 
 const ProductsWrapper = styled.section`
   padding: 80px 60px;
@@ -211,7 +213,7 @@ export default function Products() {
 
           <ProductCard>
             <ProductImage
-              src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=800&q=80"
+              src={ds}
               alt="Digital Store Platform"
             />
             <ProductName>Digital Store Platform</ProductName>
@@ -223,7 +225,7 @@ export default function Products() {
 
           <ProductCard>
             <ProductImage
-              src="https://images.unsplash.com/photo-1588072432836-e10032774350?auto=format&fit=crop&w=800&q=80"
+              src={portal}
               alt="Academic and School Management System"
             />
             <ProductName>Academic & School Management System</ProductName>

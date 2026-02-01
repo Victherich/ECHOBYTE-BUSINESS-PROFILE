@@ -131,7 +131,7 @@ export default function Home() {
 
           <InfoCard>
             <InfoTitle>Established</InfoTitle>
-            <InfoValue>2024</InfoValue>
+            <InfoValue>2025</InfoValue>
           </InfoCard>
 
           <InfoCard>

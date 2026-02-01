@@ -1,6 +1,10 @@
 
 import { useState } from "react";
 import styled from "styled-components";
+import cac from '../Images/cac.jpeg'
+import sr from '../Images/sr.png'
+import sr2 from '../Images/sr2.png'
+import bc from "../Images/business card.jpeg"
 
 const CertificationsWrapper = styled.section`
   padding: 80px 60px;
@@ -49,6 +53,7 @@ const CardImage = styled.img`
   width: 100%;
   height: 220px;
   object-fit: cover;
+  object-position:top;
 `;
 
 const CardCaption = styled.div`
@@ -96,39 +101,39 @@ export default function Documents() {
 
   const certificates = [
     {
-      title: "Software Development Certification",
+      title: "Business Registration Certificate",
       thumbnail:
-        "https://images.unsplash.com/photo-1581093588401-22f6360a6a52?auto=format&fit=crop&w=800&q=80",
+       cac,
       full:
-        "https://images.unsplash.com/photo-1581093588401-22f6360a6a52?auto=format&fit=crop&w=1600&q=80",
+        cac,
     },
     {
-      title: "Cloud Computing Certification",
+      title: "Status Report",
       thumbnail:
-        "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=800&q=80",
+        sr,
       full:
-        "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1600&q=80",
+       sr,
     },
     {
-      title: "AI & Automation Training",
+      title: "Status Report 2",
       thumbnail:
-        "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+       sr2,
       full:
-        "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1600&q=80",
+       sr2,
     },
     {
-      title: "Entrepreneurship & Innovation Award",
+      title: "Business Card",
       thumbnail:
-        "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=800&q=80",
+        bc,
       full:
-        "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=1600&q=80",
+        bc,
     },
   ];
 
   return (
     <CertificationsWrapper id="documents">
       <Container>
-        <PageTitle>Documents</PageTitle>
+        <PageTitle>Business / Company Documents</PageTitle>
 
       
 <PageIntro>

@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import gl1 from '../Images/gl1.jpg'
 
 const GalleryWrapper = styled.section`
   padding: 80px 60px;
@@ -65,10 +66,10 @@ export default function Gallery() {
         <GalleryGrid>
           <GalleryCard>
             <GalleryImage
-              src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=900&q=80"
+              src={gl1}
               alt="Web development workspace"
             />
-            <Caption>Web & Cloud Solutions Development</Caption>
+            <Caption>Web & Cloud Solutions Development work space 1</Caption>
           </GalleryCard>
 
           <GalleryCard>

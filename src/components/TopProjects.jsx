@@ -1,5 +1,9 @@
 import { useState } from "react";
 import styled from "styled-components";
+import pr1 from '../Images/pr1.png'
+import pr2 from '../Images/pr2.png'
+import pr3 from '../Images/pr3.png'
+import pr4 from '../Images/pr4.png'
 
 const CertificationsWrapper = styled.section`
   padding: 80px 60px;
@@ -47,7 +51,7 @@ const Card = styled.div`
 const CardImage = styled.img`
   width: 100%;
   height: 220px;
-  object-fit: cover;
+  objepr-fit: cover;
 `;
 
 const CardCaption = styled.div`
@@ -79,7 +83,7 @@ const ModalContent = styled.div`
 const ModalImage = styled.img`
   width: 100%;
   max-height: 80vh;
-  object-fit: contain;
+  objepr-fit: contain;
 `;
 
 const CloseButton = styled.button`
@@ -91,41 +95,41 @@ const CloseButton = styled.button`
 `;
 
 export default function TopProjects() {
-  const [selectedCert, setSelectedCert] = useState(null);
+  const [selepredCert, setSelepredCert] = useState(null);
 
   const certificates = [
     {
-      title: "Software Development Certification",
+      title: "DIGITAL STORE",
       thumbnail:
-        "https://images.unsplash.com/photo-1581093588401-22f6360a6a52?auto=format&fit=crop&w=800&q=80",
+        pr1,
       full:
-        "https://images.unsplash.com/photo-1581093588401-22f6360a6a52?auto=format&fit=crop&w=1600&q=80",
+        pr1
     },
     {
-      title: "Cloud Computing Certification",
+      title: "BOOKING SYSTEM",
       thumbnail:
-        "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=800&q=80",
+        pr2,
       full:
-        "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1600&q=80",
+        pr2
     },
     {
-      title: "AI & Automation Training",
+      title: "DIGITAL MARKETING SITE",
       thumbnail:
-        "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+        pr3,
       full:
-        "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1600&q=80",
+        pr3,
     },
     {
-      title: "Entrepreneurship & Innovation Award",
+      title: "Entrepreneurship & Innovative Platform",
       thumbnail:
-        "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=800&q=80",
+       pr4,
       full:
-        "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=1600&q=80",
+        pr4,
     },
   ];
 
   return (
-    <CertificationsWrapper id='topprojects'>
+    <CertificationsWrapper id='topprojeprs'>
       <Container>
         <PageTitle>Our Top Projects</PageTitle>
 
@@ -135,20 +139,20 @@ export default function TopProjects() {
 
         <Grid>
           {certificates.map((cert, index) => (
-            <Card key={index} onClick={() => setSelectedCert(cert)}>
+            <Card key={index} onClick={() => setSelepredCert(cert)}>
               <CardImage src={cert.thumbnail} alt={cert.title} />
               <CardCaption>{cert.title}</CardCaption>
             </Card>
           ))}
         </Grid>
 
-        {selectedCert && (
-          <ModalOverlay onClick={() => setSelectedCert(null)}>
+        {selepredCert && (
+          <ModalOverlay onClick={() => setSelepredCert(null)}>
             <ModalContent onClick={(e) => e.stopPropagation()}>
-              <CloseButton onClick={() => setSelectedCert(null)}>
+              <CloseButton onClick={() => setSelepredCert(null)}>
                 ✕
               </CloseButton>
-              <ModalImage src={selectedCert.full} alt={selectedCert.title} />
+              <ModalImage src={selepredCert.full} alt={selepredCert.title} />
             </ModalContent>
           </ModalOverlay>
         )}

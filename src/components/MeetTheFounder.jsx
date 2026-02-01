@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 import { FaPlay } from "react-icons/fa"; // for the play button
+import intromedia from '../Images/Intromedia.mp4'
+import thumbnail from '../Images/thumbnail.png'
 
 const FounderWrapper = styled.section`
   padding: 80px 20px;
@@ -90,7 +92,7 @@ const CloseButton = styled.button`
   cursor: pointer;
 `;
 
-export default function MeetTheFounder({ videoUrl, thumbnail }) {
+export default function MeetTheFounder() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -107,7 +109,7 @@ export default function MeetTheFounder({ videoUrl, thumbnail }) {
         <VideoPopup>
           <CloseButton onClick={() => setIsOpen(false)}>&times;</CloseButton>
           <iframe
-            src={videoUrl}
+            src={intromedia}
             title="Founder Video"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen

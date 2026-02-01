@@ -1,5 +1,11 @@
 import { useState } from "react";
 import styled from "styled-components";
+import ct1 from '../Images/ct1.jpeg'
+import ct2 from '../Images/ct2.jpeg'
+import ct3 from '../Images/ct3.jpeg'
+import ct4 from '../Images/ct4.jpeg'
+import ct5 from '../Images/ct5.jpeg'
+
 
 const CertificationsWrapper = styled.section`
   padding: 80px 60px;
@@ -95,32 +101,39 @@ export default function Certifications() {
 
   const certificates = [
     {
-      title: "Software Development Certification",
+      title: "KORA HACK 2.0 CERTIFICATION",
       thumbnail:
-        "https://images.unsplash.com/photo-1581093588401-22f6360a6a52?auto=format&fit=crop&w=800&q=80",
+        ct1,
       full:
-        "https://images.unsplash.com/photo-1581093588401-22f6360a6a52?auto=format&fit=crop&w=1600&q=80",
+        ct1,
     },
     {
-      title: "Cloud Computing Certification",
+      title: "HACKOPS 1.0 CERTIFICATION",
       thumbnail:
-        "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=800&q=80",
+        ct2,
       full:
-        "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1600&q=80",
+        ct2,
     },
     {
-      title: "AI & Automation Training",
+      title: "THE CURVE BY KORA CERTIFICATION",
       thumbnail:
-        "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+        ct5,
       full:
-        "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1600&q=80",
+        ct5,
     },
     {
-      title: "Entrepreneurship & Innovation Award",
+      title: "CBD PARTNERS CERTIFICATION",
       thumbnail:
-        "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=800&q=80",
+        ct3,
       full:
-        "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=1600&q=80",
+        ct3,
+    },
+      {
+      title: "CBD PARTNERS CERTIFICATION",
+      thumbnail:
+        ct4,
+      full:
+        ct4,
     },
   ];
 
