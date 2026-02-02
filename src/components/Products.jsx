@@ -230,7 +230,7 @@ export default function Products() {
             />
             <ProductName>Academic & School Management System</ProductName>
             <ProductDescription>
-              We build a school system that helps schools and universtities to run and manage all academic activites including students,
+              We build school systems and platforms that helps schools and universtities to run and manage all academic activites including students,
               payments, exams etc and learning digitally instead of the stressful physical and manual methods.
             </ProductDescription>
           </ProductCard>
@@ -242,8 +242,8 @@ export default function Products() {
             />
             <ProductName>Portfolio Builder Platform</ProductName>
             <ProductDescription>
-              We help individuals and professionals create their customized online portfolios where they can
-              show their skills, projects, and work experience professionally and dynamically, instead of the static old paper CVs.
+              We enable individuals and professionals create their customized online portfolios where they can
+              show their skills, projects, and work experience professionally and dynamically using our PORTFOLIO BUILDER PLATFORM, instead of the static old paper CVs.
             </ProductDescription>
           </ProductCard>
         </ProductGrid>

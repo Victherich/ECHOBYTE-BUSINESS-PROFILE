@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import CompanyLogo from "../Images/logo.jpeg"; // make sure to replace this with your actual logo path
+import bc from "../Images/business card.jpeg"
 
 const HomeWrapper = styled.section`
   min-height: 80vh;
@@ -157,7 +158,7 @@ export default function Home() {
             <InfoValue>Website: echobyteconcept.com</InfoValue>
           </InfoCard>
 
-
+<img src={bc} alt='card' style={{width:"280px"}}/>
         </InfoGrid>
 
         {/* <ButtonGroup>
